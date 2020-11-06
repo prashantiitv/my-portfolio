@@ -1,6 +1,6 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
-import { ArrowRight16 } from "@carbon/icons-react";
+import { Download16 } from "@carbon/icons-react";
 
 import { HeaderContainer, Header, Image, ViewResumeLink } from "./styles";
 
@@ -13,7 +13,7 @@ const UserHeader = ({ user }) => {
         <Image src={user.basics.picture} />
         <div>
           <h2>{user.basics.name}</h2>
-          <h4>
+          {/* <h4>
             <a
               href={`https://gitconnected.com/${user.basics.username}`}
               target="_blank"
@@ -21,7 +21,7 @@ const UserHeader = ({ user }) => {
             >
               @{user.basics.username}
             </a>
-          </h4>
+          </h4> */}
           <p>{user.basics.label}</p>
           <p>Coding in {user.basics.region}</p>
           <p>
@@ -38,12 +38,12 @@ const UserHeader = ({ user }) => {
       </Header>
       <div>
         <ViewResumeLink
-          href={`https://gitconnected.com/${user.basics.username}/resume`}
+          href={`https://drive.google.com/file/d/1THvM0oGzcfP-Gn0xff4ldj8k0KPf_38b/view?usp=sharing`}
           target="_blank"
           rel="noopener noreferrer"
         >
           <span>View Resume</span>
-          <ArrowRight16 />
+          <Download16 />
         </ViewResumeLink>
       </div>
     </HeaderContainer>

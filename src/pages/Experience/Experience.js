@@ -1,19 +1,20 @@
-import React from 'react';
-import Layout from '../../components/Layout';
-import { SectionTitle, Paragraph } from '../../styles';
-import { WorkItem, WorkTitle, JobTitle } from './styles';
+import React from "react";
+import Layout from "../../components/Layout";
+import { SectionTitle, Paragraph } from "../../styles";
+import { WorkItem, WorkTitle, JobTitle } from "./styles";
 
-const Work = ({ user }) => {
+const Experience = ({ user }) => {
   return (
     <Layout user={user}>
       <div>
-        <SectionTitle>Work</SectionTitle>
+        <SectionTitle>Work Experience</SectionTitle>
         <ul>
           {user.work.map((work, i) => (
             <WorkItem key={i}>
               <WorkTitle>{work.position}</WorkTitle>
               <div>
-                <JobTitle>{work.company}</JobTitle> <span>{work.location}</span>
+                <JobTitle>{work.company}</JobTitle>
+                <span> &sdot; </span> <span>{work.location}</span>
                 <span> &sdot; </span>
                 <span>
                   {work.start.year} to {work.end.year}
@@ -28,4 +29,4 @@ const Work = ({ user }) => {
   );
 };
 
-export default Work;
+export default Experience;
