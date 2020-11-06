@@ -29,7 +29,7 @@ const Me = ({ user }) => {
             >
               LinkedIn
             </ProfileView>
-            {" | "}
+            <span> &sdot; </span>
             <ProfileView
               href="https://github.com/prashantiitv/"
               target="_blank"
@@ -37,7 +37,7 @@ const Me = ({ user }) => {
             >
               GitHub
             </ProfileView>
-            {" | "}
+            <span> &sdot; </span>
             <ProfileView
               href="https://prashantiit.live"
               target="_blank"
@@ -45,7 +45,7 @@ const Me = ({ user }) => {
             >
               Portfolio
             </ProfileView>
-            {" | "}
+            <span> &sdot; </span>
             <ProfileView
               href="https://www.hackerearth.com/@prashantiitv"
               target="_blank"
@@ -53,7 +53,7 @@ const Me = ({ user }) => {
             >
               Hackerearth
             </ProfileView>
-            {" | "}
+            <span> &sdot; </span>
             <ProfileView
               href="https://www.scaler.com/academy/profile/b94ba0de3405/"
               target="_blank"
@@ -61,7 +61,7 @@ const Me = ({ user }) => {
             >
               Scaler
             </ProfileView>
-            {" | "}
+            <span> &sdot; </span>
             <ProfileView
               href="https://leetcode.com/prashantiitv/"
               target="_blank"
@@ -69,7 +69,7 @@ const Me = ({ user }) => {
             >
               Leetcode
             </ProfileView>
-            {" | "}
+            <span> &sdot; </span>
             <ProfileView
               href="https://codepen.io/prashantiit"
               target="_blank"
