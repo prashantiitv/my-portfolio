@@ -1,6 +1,6 @@
-import styled from 'styled-components';
-import { Link } from 'react-router-dom';
-import Button from 'carbon-components-react/lib/components/Button';
+import styled from "styled-components";
+import { Link } from "react-router-dom";
+import Button from "carbon-components-react/lib/components/Button";
 
 export const Container = styled.div`
   display: none;
@@ -19,8 +19,8 @@ export const NavWrapper = styled.div`
   justify-content: center;
   position: fixed;
   width: 100vw;
-  top: 0;
   left: 0;
+  bottom: 0;
   z-index: 1;
 `;
 
