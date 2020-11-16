@@ -1,9 +1,14 @@
 import styled from "styled-components";
 import { blue } from "@carbon/colors";
 
-export const SectionTitle = styled.h3`
-  margin-top: 1.5rem;
+export const SectionTitle = styled.h2`
+  margin-top: 2rem;
   margin-bottom: 0.5rem;
+  font-weight: bold;
+
+  @media (max-width: 640px) {
+    text-align: center;
+  }
 `;
 
 export const Paragraph = styled.p`

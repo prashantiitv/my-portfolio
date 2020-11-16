@@ -1,8 +1,11 @@
 import styled from "styled-components";
+import { blue } from "@carbon/colors";
 
 export const HeaderContainer = styled.div`
   display: flex;
   justify-content: space-between;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid ${blue[50]};
 
   @media (max-width: 640px) {
     display: ${({ isHome }) => (!isHome ? "none" : "flex")};
