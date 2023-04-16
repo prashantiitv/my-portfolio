@@ -38,7 +38,7 @@ const UserHeader = ({ user }) => {
       </Header>
       <div>
         <ViewResumeLink
-          href={`https://drive.google.com/file/d/1THvM0oGzcfP-Gn0xff4ldj8k0KPf_38b/view?usp=sharing`}
+          href={`https://drive.google.com/file/d/1R-a9OQU2Lt4_AbVPYFxphRGOIU2hS5Vw/view?usp=share_link`}
           target="_blank"
           rel="noopener noreferrer"
         >

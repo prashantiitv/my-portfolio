@@ -39,14 +39,6 @@ const Me = ({ user }) => {
             </ProfileView>
             <span> &sdot; </span>
             <ProfileView
-              href="https://prashantiit.live"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              Portfolio
-            </ProfileView>
-            <span> &sdot; </span>
-            <ProfileView
               href="https://www.hackerearth.com/@prashantiitv"
               target="_blank"
               rel="noreferrer noopener"
