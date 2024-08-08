@@ -1,6 +1,6 @@
 # This project is built on react
 
-To see the app live. [prashantiit.live](https://prashantiit.live)
+To see the app live. [prashantiit.tech](https://prashantiit.tech)
 
 # Getting Started with Create React App
 
