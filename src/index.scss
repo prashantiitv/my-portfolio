@@ -4,6 +4,18 @@ $carbon--theme: $carbon--theme--g100;
 
 @import "carbon-components/scss/globals/scss/styles.scss";
 
+* {
+  margin: 0;
+  padding: 0;
+  -ms-overflow-style: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  overscroll-behavior: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
 a {
   color: $text-04;
 }

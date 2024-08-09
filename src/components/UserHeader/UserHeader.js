@@ -25,7 +25,7 @@ const UserHeader = ({ user }) => {
           <p>{user.basics.label}</p>
           <p>Currently in {user.basics.region}</p>
           <p>
-            {user.basics.yearsOfExperience} years of experience as a developer
+            {user.basics.yearsOfExperience}+ years of experience as a Software Developer
           </p>
           <p>{user.basics.headline}</p>
           {/* <p>
@@ -38,7 +38,7 @@ const UserHeader = ({ user }) => {
       </Header>
       <div>
         <ViewResumeLink
-          href={`https://drive.google.com/file/d/1R-a9OQU2Lt4_AbVPYFxphRGOIU2hS5Vw/view?usp=share_link`}
+          href={`https://drive.google.com/file/d/1T_FR0dGfqHiHG7XUmuL2q_asjhDw0gIS/view?usp=sharing`}
           target="_blank"
           rel="noopener noreferrer"
         >

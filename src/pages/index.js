@@ -7,7 +7,7 @@ import Education from "./Education";
 
 const Pages = ({ user }) => {
   return (
-    <Router basename="/my-portfolio">
+    <Router>
       <Switch>
         <Route exact path="/">
           <Me user={user} />

@@ -53,7 +53,7 @@ const Me = ({ user }) => {
             >
               Scaler
             </ProfileView>
-            <span> &sdot; </span>
+            {/* <span> &sdot; </span>
             <ProfileView
               href="https://leetcode.com/prashantiitv/"
               target="_blank"
@@ -68,7 +68,7 @@ const Me = ({ user }) => {
               rel="noreferrer noopener"
             >
               CodePen
-            </ProfileView>
+            </ProfileView> */}
           </ProfileLink>
 
           {/* {user.basics.profiles.map((profile, i) => (
